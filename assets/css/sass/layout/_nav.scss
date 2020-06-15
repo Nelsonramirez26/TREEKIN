@@ -1,0 +1,102 @@
+.margen-items-nav{
+    margin-left: 30px !important;
+}
+
+.navbar{
+    position: fixed;  
+    width: 100%;
+    background-color: $white;
+
+}
+
+.navbar__logo {
+    position: absolute; 
+    display: inline-block;
+    margin-left: 10%;
+    .svg {
+        display: inline-block;
+    }
+
+    .navbar__menu-nav {
+        display: none;
+        position: relative;
+        top: -10px;
+        text-decoration: none;
+        display: none;
+        li {
+            display: inline-block;
+        }
+        @media only screen and (min-width: 992px){
+            display: inline-block;
+        }
+    }
+
+}
+
+.navbar__menu { 
+    margin-right: 10%;
+}
+.navbar__collapsible {
+    text-align: right;
+    margin-bottom: 5px;
+
+    label {
+        display: block;
+        color: $raising-black;
+        padding: 6px;
+        font-size: 1.8rem;
+    }
+}
+
+#menu {
+    display: none;
+}
+
+.navbar__container {
+    max-height: 0;    
+    padding: 0;
+    overflow: hidden;
+    background-color: $white;
+    
+    li a {
+        text-align: right;
+    }
+}
+
+input:checked ~ .navbar__container {
+
+    animation: animacion_cards 2s ease-in-out forwards;
+}
+
+.navbar__list {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.navbar__item {
+
+    a {
+        display: block;
+        text-align: left;
+        padding: 10px;
+        text-decoration: none;
+        color: $raising-black;
+    }
+}
+
+.navbar__buttons {
+    display: inline-block;
+}
+
+.navbar__menu-desk {
+    display: none;
+}
+
+
+@media only screen and (max-width: 992px) {
+
+    .navbar__buttons {
+        display: none;
+    }
+
+  }

@@ -1,0 +1,56 @@
+h1, h2, h3, h4, h5, h6, a, button {
+    font-family: $raleway;
+}
+
+p, li {
+    font-family: $open-sans;
+}
+
+h1, h2, h3, h4 {
+    font-weight: $bold;
+}
+
+h6, li, a, button {
+    font-weight: $bold;
+}
+
+h1 {
+    font-size: $h1-size;
+}
+h2 {
+    font-size: $h2-size;
+}
+h3 {
+    font-size: $h3-size;
+}
+h4 {
+    font-size: $h4-size;
+}
+h5 {
+    font-size: $h5-size;
+}
+h6 {
+    font-size: $h6-size;
+}
+p {
+    font-size: $p-size;
+}
+.precios__marco-tarjeta h3 {
+    font-weight: $regular;
+}
+
+a {
+    text-decoration: none;
+    color: $raising-black !important;
+    font-size: $h6-size;
+}
+
+i {
+    color: $raising-black;
+    font-size: $h5-size;
+}
+
+.margen-boton-iniciar{
+
+    margin-right: 30px !important;
+}

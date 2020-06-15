@@ -1,0 +1,33 @@
+.precios {
+    line-height: 1.5;
+    .precios__marco-tarjeta {
+        transition: all .15s ease-in-out;
+        &:hover {
+            margin-left: 10px;            
+            box-shadow: 0px 3px 18px 6px rgba(0,0,0,.8);
+            
+        }
+        background-color: $white;
+        padding: 30px;
+        max-width: 100%;
+        margin-bottom: 80px;
+    }
+    ul {
+        line-height: 2;
+        margin: 20px 10px 20px 30px;
+        min-height: 160px;
+        text-align: justify;
+    }
+    button {
+        margin-top: 10px;
+    }
+}
+
+.centrar__cards {
+
+    text-align: -webkit-center;
+}
+
+.precios__tarjeta {
+    max-width: 100% !important;
+}

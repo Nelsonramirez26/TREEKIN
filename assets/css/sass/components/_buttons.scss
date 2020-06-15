@@ -1,0 +1,17 @@
+.navbar__buttons button, .precios__buttons {
+    background-color: $ball-blue;
+    color: $white;
+    padding: 10px 15px;
+    border: none;
+    &:hover {
+        background-color: $middle-blue;
+    }
+    &:focus {
+        background-color: $gray;
+    }
+}
+
+.precios__buttons {
+    padding: 15px;
+    width: 100%;
+}

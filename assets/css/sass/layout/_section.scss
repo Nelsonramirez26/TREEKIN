@@ -1,0 +1,37 @@
+.caracteristicas {
+    margin-bottom: 100px;
+    img {
+        max-width: 100%;
+        opacity: 0;
+        animation: opacidad .5s ease-in 1s 1;
+        animation-fill-mode: forwards;
+    }
+    .caracteristicas__titulo {
+        text-align: center;
+        margin: 50px 0;
+    }
+
+    .caracteristicas__texto {
+        line-height: 1.8;
+        max-width: 100%;
+    }
+}
+
+.precios {
+    
+    background-image: url('../../img/bg-price.svg');
+    background-repeat: no-repeat;
+    background-position: top;
+  
+    
+    background-size: cover;
+    .precios__titulo {
+        color: $white;
+        text-align: center;
+        padding: 250px 0 40px 0;
+    }
+}
+
+.caracteristicas__grafico img{
+    width: 100%;
+}
